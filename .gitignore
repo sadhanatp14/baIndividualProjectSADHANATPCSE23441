@@ -2,3 +2,4 @@ data/processed/*.csv
 data/raw/*
 venv/
 .DS_Store
+data/synthetic/*.csv
