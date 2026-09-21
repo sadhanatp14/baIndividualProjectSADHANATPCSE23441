@@ -1,0 +1,37 @@
+Dataset Preparation Summary
+==================================================
+Original records: 4999
+Final records: 4999
+Final columns: 24
+
+Built Up Area Decision:
+
+
+Transformations Performed:
+- Parsed `floor` into numeric `floor_number` and `total_floors`
+- Parsed `age_of_property` into numeric `age_years`
+- Standardized `facing` text (missing -> "Unknown")
+- Parsed `possession_status` into `possession_category` and datetime `possession_date`
+- Converted `postedDate` to datetime `posted_date`
+- Added `data_source` = "Real"
+
+Missing Values:
+ - listingId: 0 missing\n - title: 0 missing\n - price: 0 missing\n - area_sqft: 0 missing\n - bhk: 0 missing\n - bathrooms: 0 missing\n - parking: 0 missing\n - location: 0 missing\n - city: 0 missing\n - latitude: 0 missing\n - longitude: 0 missing\n - floor_number: 51 missing\n - total_floors: 51 missing\n - furnishing: 0 missing\n - facing: 0 missing\n - age_years: 1266 missing\n - possession_category: 0 missing\n - possession_date: 4408 missing\n - is_under_construction: 0 missing\n - project_name: 780 missing\n - posted_date: 11 missing\n - propertyType: 0 missing\n - saleTag: 0 missing\n - data_source: 0 missing
+
+Quality Check Results:
+- Duplicate listingId: 0
+- Duplicate exact rows: 0
+- price <= 0: 0
+- area <= 0: 0
+- bhk <= 0: 0
+- bathrooms < 0: 0
+- parking < 0: 0
+- Invalid Coordinates: 0
+- floor_number extremely negative (< -10): 0
+- total_floors <= 0: 0
+- floor_number > total_floors: 0
+- age_years < 0: 0
+
+Records Removed: 0 (No genuine data-validity failures were detected that warrant removal)
+
+Dataset ready for synthetic generation: YES

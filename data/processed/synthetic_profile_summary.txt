@@ -1,0 +1,47 @@
+Synthetic Profile Summary
+==================================================
+Total records: 4999
+Percentage real data: 100.0%
+
+Missing-Value Patterns (from summary logic above):
+[Check synthetic_generation_profile.csv for exact counts]
+
+Important Correlations:
+BHK vs area_sqft: 0.759
+BHK vs bathrooms: 0.884
+BHK vs parking: 0.328
+area_sqft vs price: 0.787
+BHK vs price: 0.507
+age_years vs price: 0.033
+
+Categorical Price Medians:
+- Furnishing: {'Fully Furnished': 16350000.0, 'Semi Furnished': 14500000.0, 'Unfurnished': 17800000.0}
+- Under Construction: {False: 15000000.0, True: 23500000.0}
+
+Location Analysis:
+Unique locations: 776\n\nTop 20 Locations:\nGummanahalli, Bengaluru: 177 records (3.54%) - Median Price: 9700000 - Median Price/Sqft: 10111.22\nDevasthanagalu, Varthur: 105 records (2.10%) - Median Price: 16800000 - Median Price/Sqft: 13084.11\nDodsworth Layout, Whitefield: 105 records (2.10%) - Median Price: 14200000 - Median Price/Sqft: 12436.29\nPhase I, Electronic City: 102 records (2.04%) - Median Price: 14000000 - Median Price/Sqft: 11763.16\nSarjapur, Bengaluru: 95 records (1.90%) - Median Price: 9400000 - Median Price/Sqft: 11664.90\nVarthur, Bengaluru: 75 records (1.50%) - Median Price: 15500000 - Median Price/Sqft: 13673.66\nManayata Tech Park, Thanisandra: 71 records (1.42%) - Median Price: 12000000 - Median Price/Sqft: 12450.20\nBalagere, Bengaluru: 66 records (1.32%) - Median Price: 16700000 - Median Price/Sqft: 14276.53\nChikkakannalli, Bengaluru: 65 records (1.30%) - Median Price: 16800000 - Median Price/Sqft: 13422.82\nBudigere Cross, Bengaluru: 63 records (1.26%) - Median Price: 14000000 - Median Price/Sqft: 11202.19\nNallurhalli, Whitefield: 62 records (1.24%) - Median Price: 25900000 - Median Price/Sqft: 15187.70\nSri Balaji Krupa Layout, R.K. Hegde Nagar: 54 records (1.08%) - Median Price: 28300000 - Median Price/Sqft: 14970.67\nGunjur Village, Bengaluru: 53 records (1.06%) - Median Price: 18700000 - Median Price/Sqft: 14102.56\nPrakruthi Nagar, Kogilu: 52 records (1.04%) - Median Price: 12500000 - Median Price/Sqft: 11546.33\nDommasandra, Bengaluru: 51 records (1.02%) - Median Price: 21000000 - Median Price/Sqft: 12965.96\nHosahalli, Bengaluru: 50 records (1.00%) - Median Price: 14550000 - Median Price/Sqft: 11170.69\nAishwarya Crystal Layout, Begur: 46 records (0.92%) - Median Price: 12700000 - Median Price/Sqft: 12089.09\nBengaluru Hardware Park, Bengaluru: 44 records (0.88%) - Median Price: 10250000 - Median Price/Sqft: 10566.04\nBelathur, K R Puram: 40 records (0.80%) - Median Price: 12000000 - Median Price/Sqft: 11134.28\nChikkagubbi Village, Bengaluru: 39 records (0.78%) - Median Price: 16700000 - Median Price/Sqft: 10460.25\n
+
+Potential Outliers (IQR Method):
+- price: 223 potential outliers\n- area_sqft: 218 potential outliers\n- bhk: 32 potential outliers\n- bathrooms: 80 potential outliers\n- parking: 1089 potential outliers\n- age_years: 76 potential outliers\n
+
+Consistency Checks:
+- floor_number <= total_floors: 0 violations\n- floor_number >= 0 (or valid basement): 0 violations\n- age_years >= 0: 0 violations\n- price > 0: 0 violations\n- area_sqft > 0: 0 violations\n- bhk > 0: 0 violations\n- bathrooms >= 0: 0 violations\n- parking >= 0: 0 violations\n
+
+
+Synthetic Generation Recommendations:
+- `location`: Empirical/Categorical distribution. Highly skewed, must preserve Top 20 distribution.
+- `bhk`: Empirical/Categorical distribution. Should act as a conditional base for area and bathrooms.
+- `area_sqft`: Conditional numeric distribution dependent on `bhk`.
+- `bathrooms`: Conditional distribution dependent on `bhk`.
+- `parking`: Conditional distribution dependent on `bhk` and `area_sqft`.
+- `price`: Conditional numeric distribution heavily dependent on `area_sqft` and `location`. (Maintain location ↔ price_per_sqft relationship).
+- `age_years`: Numeric distribution. Mildly influences price. Missing-value pattern should be preserved (MCAR or MAR).
+- `furnishing`: Conditional categorical distribution.
+- `facing`: Categorical distribution.
+- `floor_number` & `total_floors`: Coupled numeric distribution ensuring `floor_number <= total_floors`.
+
+Variables that should NOT be synthesized (Keep as reference or drop):
+- `listingId`, `title`, `project_name`, `propertyType`, `saleTag`, `data_source`, `posted_date`, `possession_date`
+
+
+Note: Do NOT generate synthetic records yet.

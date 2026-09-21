@@ -1,0 +1,32 @@
+Data Cleaning Report (Revised)
+==================================================
+Original records: 4999
+Original columns: 168
+Cleaned records: 4999
+Final features: 21
+Target variable: price
+Columns retained: ['listingId', 'title', 'price', 'area_sqft', 'bhk', 'bathrooms', 'parking', 'location', 'city', 'latitude', 'longitude', 'floor', 'furnishing', 'facing', 'age_of_property', 'possession_status', 'is_under_construction', 'project_name', 'postedDate', 'propertyType', 'saleTag']
+
+City Validation
+==================================================
+Non-Bengaluru/Missing Cities found: <StringArray>
+[]
+Length: 0, dtype: str
+
+BHK Disagreements
+==================================================
+Fractional vs Structured disagreements: 206
+
+Quality Checks
+==================================================
+Duplicate records (listingId): 0
+Duplicate exact rows: 0
+Invalid prices (<= 0): 0
+Invalid areas (<= 0): 0
+Invalid BHK (<= 0): 0
+Invalid Bathrooms (< 0): 0
+Invalid Parking (< 0): 0
+Invalid Coordinates: 0
+Outliers (IQR method - Plausible Extremes): {'price': 223, 'area_sqft': 218, 'bhk': 32}
+
+Dataset ready for synthetic generation: YES
