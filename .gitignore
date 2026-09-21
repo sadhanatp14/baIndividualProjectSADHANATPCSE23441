@@ -3,3 +3,5 @@ data/raw/*
 venv/
 .DS_Store
 data/synthetic/*.csv
+data/*.csv
+notebook/.ipynb_checkpoints

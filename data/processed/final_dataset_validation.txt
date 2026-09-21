@@ -1,0 +1,20 @@
+FINAL DATASET VALIDATION
+============================================================
+
+Real records: 4999
+Synthetic records: 5001
+Combined records: 10000
+
+Data source:
+data_source
+Synthetic    5001
+Real         4999
+
+Exact duplicate rows: 0
+Duplicate listing IDs: 0
+
+Invalid values:
+Price <= 0: 0
+Area <= 0: 0
+BHK <= 0: 0
+Floor > total floors: 0
