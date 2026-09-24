@@ -799,8 +799,8 @@ The project demonstrates how web-collected real-estate data, exploratory analysi
 
 # Author
 
-**Sadhana T P**
+**SADHANA T P**
 
-Business Analytics Individual Case Study
+**CB.SC.U4CSE23441**
 
 **Predictive Valuation Modeling for Detecting Price Anomalies in Bengaluru Residential Resale Apartments**
