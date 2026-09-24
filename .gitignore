@@ -5,3 +5,4 @@ venv/
 data/synthetic/*.csv
 data/*.csv
 notebook/.ipynb_checkpoints
+.venv/
