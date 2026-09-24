@@ -1,0 +1,8 @@
+Feature,Non_Missing_Count,Missing_Percentage,Sample_Values
+age_of_property,3733,25.3250650130026,"11 Year Old, 1 Years Old, 4 Year Old, 3 Year Old, 8 Year Old"
+floor,4948,1.0202040408081616,"4 of 7, 3 of 12, 2 of 22, 3 of 3, 5 of 13"
+furnishing,4999,0.0,"Unfurnished, Semi Furnished, Fully Furnished"
+facing,4667,6.64132826565313,"north facing, east facing, south facing, north_east facing, west facing"
+possession_status,4999,0.0,"Ready to move, 21st Aug, 2026, 10th Sep, 2026, 25th Dec, 2029, 27th Dec, 2027"
+configuration,591,88.17763552710542,"2 BHK, 3 BHK, 4 BHK, 3.5 BHK, 2.5 BHK"
+built_up_area,4999,0.0,"1074 sq.ft, 1720 sq.ft, 1748 sq.ft, 750 sq.ft, 915 sq.ft"

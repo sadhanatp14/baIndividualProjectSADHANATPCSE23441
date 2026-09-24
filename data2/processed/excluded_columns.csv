@@ -1,0 +1,157 @@
+excluded_column,reason
+area,Redundant/Unused
+badge,Redundant/Unused
+category,Redundant/Unused
+cityId,Redundant/Unused
+coverImageUrl,Image/Video URL
+displayPrice/brokerage,Redundant/Unused
+displayPrice/displayValue,Redundant/Unused
+displayPrice/value/0,Redundant/Unused
+featuredVideoThumbnailUrl,Image/Video URL
+featuredVideoUrl,Image/Video URL
+features/0/description,Redundant/Raw Flattened Feature
+features/0/id,Redundant/Raw Flattened Feature
+features/0/label,Redundant/Raw Flattened Feature
+features/1/description,Redundant/Raw Flattened Feature
+features/1/id,Redundant/Raw Flattened Feature
+features/1/label,Redundant/Raw Flattened Feature
+features/2/description,Redundant/Raw Flattened Feature
+features/2/id,Redundant/Raw Flattened Feature
+features/2/label,Redundant/Raw Flattened Feature
+features/3/description,Redundant/Raw Flattened Feature
+features/3/id,Redundant/Raw Flattened Feature
+features/3/label,Redundant/Raw Flattened Feature
+features/4/description,Redundant/Raw Flattened Feature
+features/4/id,Redundant/Raw Flattened Feature
+features/4/label,Redundant/Raw Flattened Feature
+features/5/description,Redundant/Raw Flattened Feature
+features/5/id,Redundant/Raw Flattened Feature
+features/5/label,Redundant/Raw Flattened Feature
+features/6/description,Redundant/Raw Flattened Feature
+features/6/id,Redundant/Raw Flattened Feature
+features/6/label,Redundant/Raw Flattened Feature
+features/7/description,Redundant/Raw Flattened Feature
+features/7/id,Redundant/Raw Flattened Feature
+features/7/label,Redundant/Raw Flattened Feature
+galleryTitle,Redundant/Unused
+highlights/0,Redundant/Unused
+highlights/1,Redundant/Unused
+highlights/2,Redundant/Unused
+highlights/3,Redundant/Unused
+imageCount,Image/Video URL
+imageUrls/0,Image/Video URL
+imageUrls/1,Image/Video URL
+imageUrls/2,Image/Video URL
+imageUrls/3,Image/Video URL
+imageUrls/4,Image/Video URL
+imageUrls/5,Image/Video URL
+imageUrls/6,Image/Video URL
+imageUrls/7,Image/Video URL
+imageUrls/8,Image/Video URL
+imageUrls/9,Image/Video URL
+imageUrls/10,Image/Video URL
+imageUrls/11,Image/Video URL
+imageUrls/12,Image/Video URL
+imageUrls/13,Image/Video URL
+imageUrls/14,Image/Video URL
+imageUrls/15,Image/Video URL
+imageUrls/16,Image/Video URL
+imageUrls/17,Image/Video URL
+imageUrls/18,Image/Video URL
+imageUrls/19,Image/Video URL
+imageUrls/20,Image/Video URL
+imageUrls/21,Image/Video URL
+imageUrls/22,Image/Video URL
+imageUrls/23,Image/Video URL
+imageUrls/24,Image/Video URL
+imageUrls/25,Image/Video URL
+imageUrls/26,Image/Video URL
+imageUrls/27,Image/Video URL
+imageUrls/28,Image/Video URL
+imageUrls/29,Image/Video URL
+imageUrls/30,Image/Video URL
+imageUrls/31,Image/Video URL
+imageUrls/32,Image/Video URL
+imageUrls/33,Image/Video URL
+imageUrls/34,Image/Video URL
+imageUrls/35,Image/Video URL
+imageUrls/36,Image/Video URL
+imageUrls/37,Image/Video URL
+imageUrls/38,Image/Video URL
+imageUrls/39,Image/Video URL
+imageUrls/40,Image/Video URL
+imageUrls/41,Image/Video URL
+imageUrls/42,Image/Video URL
+imageUrls/43,Image/Video URL
+imageUrls/44,Image/Video URL
+imageUrls/45,Image/Video URL
+imageUrls/46,Image/Video URL
+imageUrls/47,Image/Video URL
+imageUrls/48,Image/Video URL
+imageUrls/49,Image/Video URL
+imageUrls/50,Image/Video URL
+imageUrls/51,Image/Video URL
+imageUrls/52,Image/Video URL
+imageUrls/53,Image/Video URL
+imageUrls/54,Image/Video URL
+imageUrls/55,Image/Video URL
+imageUrls/56,Image/Video URL
+imageUrls/57,Image/Video URL
+imageUrls/58,Image/Video URL
+imageUrls/59,Image/Video URL
+imageUrls/60,Image/Video URL
+imageUrls/61,Image/Video URL
+imageUrls/62,Image/Video URL
+imageUrls/63,Image/Video URL
+imageUrls/64,Image/Video URL
+imageUrls/65,Image/Video URL
+imageUrls/66,Image/Video URL
+imageUrls/67,Image/Video URL
+imageUrls/68,Image/Video URL
+imageUrls/69,Image/Video URL
+imageUrls/70,Image/Video URL
+imageUrls/71,Image/Video URL
+imageUrls/72,Image/Video URL
+imageUrls/73,Image/Video URL
+imageUrls/74,Image/Video URL
+imageUrls/75,Image/Video URL
+imageUrls/76,Image/Video URL
+isActiveProperty,Redundant/Unused
+isExclusiveProperty,Redundant/Unused
+isMostContacted,Redundant/Unused
+isMyGateCertified,Redundant/Unused
+minifiedFeaturedVideoUrl,Image/Video URL
+primarySellerName,Seller/Contact Information
+primarySellerPhone,Seller/Contact Information
+primarySellerType,Seller/Contact Information
+promotions/0,Redundant/Unused
+promotions/1,Redundant/Unused
+promotions/2,Redundant/Unused
+promotions/3,Redundant/Unused
+promotions/4,Redundant/Unused
+promotions/5,Redundant/Unused
+promotions/6,Redundant/Unused
+propertyInformation/area,Redundant/Unused
+propertyInformation/bathrooms,Redundant/Unused
+propertyInformation/bedrooms,Redundant/Unused
+propertyInformation/parking,Redundant/Unused
+propertyInformation/price,Redundant/Unused
+searchHash,Technical/Scraping
+searchPage,Technical/Scraping
+searchUrl,Technical/Scraping
+sellers/0/id,Seller/Contact Information
+sellers/0/isCertifiedAgent,Seller/Contact Information
+sellers/0/isPaid,Seller/Contact Information
+sellers/0/isPrime,Seller/Contact Information
+sellers/0/name,Seller/Contact Information
+sellers/0/phone/partialValue,Seller/Contact Information
+sellers/0/sellerBadge,Seller/Contact Information
+sellers/0/type,Seller/Contact Information
+service,Redundant/Unused
+subtitle,Redundant/Unused
+tags/0,Redundant/Unused
+updatedAt,Redundant/Unused
+updatedAtStr,Redundant/Unused
+url,Technical/Scraping
+verifiedAt,Redundant/Unused
+videoConnectAvailable,Image/Video URL
