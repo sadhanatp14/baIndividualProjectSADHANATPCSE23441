@@ -1,4 +1,4 @@
-# Predictive Valuation Modeling for Detecting Price Anomalies in Bengaluru Residential Resale Apartments
+# Predictive Valuation Modeling for Detecting Price Anomalies in Residential Real Estate Listings
 
 ## Overview
 
@@ -803,4 +803,4 @@ The project demonstrates how web-collected real-estate data, exploratory analysi
 
 **CB.SC.U4CSE23441**
 
-**Predictive Valuation Modeling for Detecting Price Anomalies in Bengaluru Residential Resale Apartments**
+**Predictive Valuation Modeling for Detecting Price Anomalies in Residential Real Estate Listings**
