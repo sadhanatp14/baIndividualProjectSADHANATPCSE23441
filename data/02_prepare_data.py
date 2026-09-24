@@ -8,7 +8,7 @@ def main():
     
     # Paths
     CLEANED_CSV_PATH = 'data/processed/bengaluru_resale_real_clean.csv'
-    PREPARED_CSV_PATH = 'data/processed/bengaluru_resale_real_prepared.csv'
+    PREPARED_CSV_PATH = 'data/processed/realEstateListingsDataProcessed.csv'
     SUMMARY_PATH = 'data/processed/preparation_summary.txt'
 
     try:

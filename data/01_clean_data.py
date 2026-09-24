@@ -8,8 +8,8 @@ def main():
     print("Starting data cleaning pipeline...")
     
     # Paths
-    RAW_PATH = 'data/raw/datasetResale.csv'
-    PROCESSED_DIR = 'data/processed'
+    RAW_PATH = 'realEstateListingsDataRaw.csv'
+    PROCESSED_DIR = 'data/'
     CLEANED_CSV_PATH = os.path.join(PROCESSED_DIR, 'bengaluru_resale_real_clean.csv')
     EXCLUDED_CSV_PATH = os.path.join(PROCESSED_DIR, 'excluded_columns.csv')
     DATA_DICT_PATH = os.path.join(PROCESSED_DIR, 'data_dictionary.csv')
